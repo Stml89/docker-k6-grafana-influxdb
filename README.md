@@ -16,7 +16,7 @@ There are only two small modifications:
 
 #### Scripts
 The script here is an example of a Swagger PetStore API:
-https://swapi.dev/
+https://petstore.swagger.io/
 
 #### How to run
 ```commandline
@@ -26,5 +26,5 @@ docker-compose up -d
 docker-compose run k6 run /scripts/ewoks.js
 ```
 
-
+#### Where see results
 http://localhost:3000/d/k6/k6-load-testing-results?orgId=1&refresh=5s
